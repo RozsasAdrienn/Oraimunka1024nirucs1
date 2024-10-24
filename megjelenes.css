@@ -1,0 +1,142 @@
+body{
+    /*háttérszín*/
+    background-color: green;
+}
+#kezdocim{
+    /*szöveg vízszintes igazítása*/
+    text-align: center;
+    /*szöveg előtér színe, berűszín*/
+    color: white;
+}
+p{
+    color: black;
+}
+
+#ananasz{
+    /*képek balra reptetése*/
+    float: left;
+    /*kép szélessége*/
+    /*width: 30%;*/
+    width: 100px;
+    /*kép magassága*/
+    height: auto;
+    /*height: 5cm;*/
+}
+
+table{
+    background-color: white;
+    /*reptetés megszüntetése*/
+    /*float: unset;*/
+    clear: both;
+}
+
+table, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+#hatter{
+    /*háttérkép*/
+    background-image: url("smiley2.png");
+    
+    /*kép pozícionálása*/
+    background-size: contain;
+    /*background-size: cover;*/
+    /*háttér ismétlődés állítás*/
+    background-repeat: no-repeat;
+    /*háttérkép pozíciójának beállítása*/
+    background-position: center center;
+}
+
+ul>li{
+    /*lista jelölő kép legyen*/
+    list-style-image: url("smiley2.png");
+    /*lista jelölő az elemmel együtt (benne) jelenjen meg*/
+    list-style-position: inside;
+    /*list-style-position: outside;*/
+}
+
+ol>li{
+    /*nincs felsoroló jel*/
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    /*text-decoration: wavy;*/
+}
+
+div>p{
+    /*szöveg behúzása*/
+    text-indent: 50px;
+    /*sorkizárt igazítás vízszintesen*/
+    text-align: justify;
+    
+}
+
+#szoveg{
+    background-color: white;
+    border: grey solid 1px;
+    /*margó beállítás, kereten kívüli távolság*/
+    /*1. megoldás*/
+    margin-left: 50px;
+    margin-right: 50px;
+    /*2. megoldás*/
+    margin: auto 50px;
+    /*kereten belüli távolság*/
+    /*1. megoldás*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*2. megoldás*/
+    padding: 30px auto;
+
+}
+
+#nagy{
+    /*megoldás1*/
+    /*kis kapitális*/
+    font-variant: small-caps;
+    /*betű méret*/
+    font-size: 130%;
+     /*3. megoldás*/
+     /*nagybetűsít mindent*/
+     text-transform: uppercase;
+}
+#nagy2{
+    /*megoldás2*/
+    /*szó első betűje legyen nagy, ha bekezdésen alkalmazod minden szó minden első betűje nagy lesz*/
+    text-transform: capitalize;
+   
+}
+
+.alahuzott{
+    /*aláhúzás*/
+    text-decoration: underline;
+}
+
+.vastag{
+    /*vastagon szedett, félkövér betűs*/
+    font-weight: bold;
+}
+
+.dolt{
+    /*dőlt betűs*/
+    font-style: italic;
+    font-style: oblique;
+}
+
+#parizs{
+    /*magasság*/
+    height: 300px;
+    /*szélesség*/
+    width: 300px;
+    /*lekerekítés*/
+    border-radius: 50%;
+    /*középre rendezés*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
